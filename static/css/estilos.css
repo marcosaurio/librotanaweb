@@ -1,0 +1,98 @@
+a{
+	text-decoration: none;
+}
+body{
+	background: #EEEEEE;
+	font-size: 16px;
+}
+footer{
+	background: #5BB88D;
+	background-image: url('../images/imagesFooter.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+}
+footer form{
+	display: inline-block;
+	text-align: center;
+}
+footer form button{
+	background: #F44B2F;
+	border: none;
+	border-radius: .5em;
+	color: white;
+	padding: .5em;
+}
+footer form input,
+footer form textarea{
+	border: none;
+	border-radius: .5em;
+	display: block;
+	margin: 0 auto .75em;
+	padding: .5em;
+}
+footer form textarea{
+	resize: none;
+}
+footer h3{
+	color: white;
+}
+footer #down{
+	color: white;
+	font-weight: 300;
+	margin-top: 1em;
+}
+header{
+	background: #5BB88D;
+	border-bottom: 3px solid #5BB88D;
+	height: 7.5em;
+	left: 0;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+
+}
+header #logo img{
+	width: 300px;
+}
+#contacto{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 32em;
+}
+#acerca{
+	margin-bottom: 4em;
+	text-align: center;
+}
+#acerca p{
+	margin: 0 3em;
+	text-align: justify;
+}
+#apoyanos{
+	margin-bottom: 3.5em;
+	text-align: center;
+}
+#apoyanos a{
+	background: #5BB88D;
+	border-radius: 2em;
+	color: white;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+#video{
+	margin-top: 7.5em;
+	padding: 3em 0;
+	text-align: center;
+}
+.titulo{
+	border-bottom: 3px dashed #F44B2F;
+	color: #F44B2F;
+	font-weight: normal;
+	margin-top: 0;
+	padding-bottom: .5em;
+	text-align: center;
+}
