@@ -58,12 +58,6 @@ header{
 header #logo img{
 	width: 300px;
 }
-#contacto{
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	width: 32em;
-}
 #acerca{
 	margin-bottom: 4em;
 	text-align: center;
@@ -82,6 +76,12 @@ header #logo img{
 	color: white;
 	padding: .5em 1em;
 	text-decoration: none;
+}
+#contacto{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 32em;
 }
 #video{
 	margin-top: 7.5em;
