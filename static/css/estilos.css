@@ -7,15 +7,17 @@ body{
 }
 footer{
 	background: #5BB88D;
-	background-image: url('../images/imagesFooter.png');
+	background-image: url('../images/fondo.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 2em 0;
 	text-align: center;
+	height: 390px;
 }
 footer form{
 	display: inline-block;
 	text-align: center;
+	margin-top: 1.9em;
 }
 footer form button{
 	background: #F44B2F;
@@ -41,7 +43,7 @@ footer h3{
 footer #down{
 	color: white;
 	font-weight: 300;
-	margin-top: 1em;
+	margin-top: 2em;
 }
 header{
 	background: #5BB88D;
@@ -63,8 +65,33 @@ header #logo img{
 	text-align: center;
 }
 #acerca p{
-	margin: 0 3em;
+	margin: 1em 3em;
 	text-align: justify;
+}
+#acerca .text{
+	text-align: center;
+}
+#acerca .Container{
+	display: inline-block;
+	margin: 0;
+}
+#acerca .Container .Item{
+	margin-top: 2em;
+}
+#acerca .Container .Item .Images-container{
+	margin: 0;
+}
+#acerca .Container .Item .Images-container img{
+	width: 80px;
+}
+#acerca .Container .Item .Images-container,
+#acerca .Container .Item .Images-description
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#acerca .Container .Item .Images-description{
+	margin: 1.2em 2em;
 }
 #apoyanos{
 	margin-bottom: 3.5em;
@@ -77,11 +104,38 @@ header #logo img{
 	padding: .5em 1em;
 	text-decoration: none;
 }
+#apoyanos figure{
+	margin: 4em 0;
+}
+#apoyanos img{
+	width: 360px;
+}
+#apoyanos p{
+	margin-bottom: 3em;
+}
 #contacto{
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
 	width: 32em;
+}
+#contacto p{
+	margin-bottom: 2em;
+}
+#Container-cont{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 2.3em;
+}
+#Social-media figure{
+	display: inline-block;
+	margin: 0;
+}
+#Social-media img{
+	margin-right: 1em;
+	text-align: center;
+	width: 50px;
 }
 #video{
 	margin-top: 7.5em;
